@@ -19,8 +19,7 @@ public class baseClass {
 	public void initializeDriver() throws IOException {
 
 		// This will access the properties file
-		FileInputStream fis = new FileInputStream(
-				System.getProperty("user.dir") + "\\src\\main\\java\\Resources\\Data.properties");
+		FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\java\\Resources\\Data.properties");
 
 		// Read the file-
 
