@@ -10,13 +10,6 @@
           <include name="quitBrowser"/>
         </methods>
       </class> <!-- TestCases.VerifyLogin -->
-      <class name="TestCases.VerifySignUp">
-        <methods>
-          <include name="launchBrowser"/>
-          <include name="signup"/>
-          <include name="quitBrowser"/>
-        </methods>
-      </class> <!-- TestCases.VerifySignUp -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
